@@ -1,0 +1,27 @@
+#ken-header-logo{
+    height: 96px;
+}
+
+#first-ken{
+    background: url(../img/eva.jpeg) no-repeat center center;
+}
+
+#second-ken{
+    background: url(../img/moon.jpeg) no-repeat center center;
+}
+
+#third-ken{
+    background: url(../img/city.jpeg) no-repeat center center;
+}
+
+.swiper{
+    height: 480px;
+    width: 960px;
+}
+
+@media only screen and (max-width: 768px) {
+  .swiper{
+      height: 240px;
+      width: 480px;
+  }
+}
