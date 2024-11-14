@@ -11,6 +11,14 @@
             crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/css/custom.css">
     <link rel="stylesheet" href="static/css/swiper-bundle.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WHP8K9T5PC"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WHP8K9T5PC');
+    </script>
 </head>
 <body>
     <header class="p-3 text-bg-dark">
@@ -37,12 +45,13 @@
     <div class="container px-4 py-5" id="custom-cards">
     <h2 class="pb-2 border-bottom">What is KenOS?</h2>
       <span>
-        KenOS is operating system that has it's own begining in the 2017, targeting x86 architectures by now.
-        The idea is pretty straightforward - it should give Unix compatibility while maintaining own special features.
-        It came in highschool, when I started to be interested in programming more and more.
-        The whole OS is based on C/C++ with gcc/binutils crosscompiler toolchain, in addition docker and python is used
-        for managing various stuff like automatic compiling with github actions, discord paravirtualizer (ssh-like way
-        of communication with VM), et cetera.
+        KenOS is an operating system that began in 2017, currently targeting x86 architectures.
+        The concept is straightforward: it aims to provide Unix compatibility while incorporating unique features.
+        The idea originated in high school, as my interest in programming deepened.
+
+      The entire OS is built in C/C++ using a GCC/binutils cross-compiler toolchain.
+        Additionally, Docker and Python are employed for various tasks such as automated compilation via GitHub Actions,
+        a Discord-based paravirtualizer (an SSH-like method for communicating with the VM), and more.
       </span>
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
